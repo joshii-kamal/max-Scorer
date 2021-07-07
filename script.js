@@ -2,7 +2,9 @@
 
 document.getElementById('rulesBtn').addEventListener('click', function(){
     document.getElementById('rules').classList.add('hidden');
+    document.getElementById('video').src += "&autoplay=1";
 })
+
 
 const scorePlayer1 = document.querySelector('#score--0');
 const scorePlayer2 = document.getElementById('score--1');
